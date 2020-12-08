@@ -177,3 +177,6 @@ textarea {
 	background:rgba(191,97,106,0.8);
 }
 
+::selection {
+  background: #88C0D0;
+}
