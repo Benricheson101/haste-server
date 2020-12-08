@@ -4,7 +4,7 @@
 
 		<title>hastebin</title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="solarized_dark.css"/>
+    <link rel="stylesheet" type="text/css" href="nord_dark.css"/>
 		<link rel="stylesheet" type="text/css" href="application.css"/>
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -12,6 +12,7 @@
 		<script type="text/javascript" src="application.min.js"></script>
 
 		<meta name="robots" content="noindex,nofollow"/>
+    <meta name="theme-color" content="#81A1C1" />
 
 		<script type="text/javascript">
 			var app = null;
@@ -31,7 +32,7 @@
 			}, 1000);
 			// Construct app and load initial path
 			$(function() {
-				app = new haste('hastebin', { twitter: true });
+				app = new haste('hastebin', { twitter: false });
 				handlePop({ target: window });
 			});
 		</script>
@@ -49,7 +50,7 @@
 			<div id="box2">
 				<button class="save function button-picture">Save</button>
 				<button class="new function button-picture">New</button>
-				<button class="duplicate function button-picture">Duplicate & Edit</button>
+				<button class="duplicate function button-picture">Duplicate &amp; Edit</button>
 				<button class="raw function button-picture">Just Text</button>
 				<button class="twitter function button-picture">Twitter</button>
 			</div>

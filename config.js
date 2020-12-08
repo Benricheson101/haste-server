@@ -33,7 +33,8 @@
   },
 
   "storage": {
-    "type": "file"
+    "type": "mongo",
+    "connectionUrl": "mongodb://localhost:27017/haste"
   },
 
   "documents": {

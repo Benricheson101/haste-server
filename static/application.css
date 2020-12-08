@@ -1,5 +1,5 @@
 body {
-	background: #002B36;
+  background: #2E3440;
 	padding: 20px 50px;
 	margin: 0px;
 }
@@ -9,7 +9,7 @@ body {
 textarea {
 	background: transparent;
 	border: 0px;
-	color: #fff;
+  color: #ECEFF4;
 	padding: 0px;
 	width: 100%;
 	height: 100%;
@@ -24,8 +24,8 @@ textarea {
 /* the line numbers */
 
 #linenos {
-  color: #7d7d7d;
-	z-index: -1000;
+  color: #D8DEE9;
+  z-index: -1000;
 	position: absolute;
 	top: 20px;
 	left: 0px;
@@ -65,11 +65,11 @@ textarea {
 #box1 {
 	padding: 5px;
 	text-align: center;
-	background: #00222b;
+  background: #3B4252;
 }
 
 #box2 {
-	background: #08323c;
+  background: #434C5E;
 	font-size: 0px;
 	padding: 0px 5px;
 }
@@ -115,7 +115,7 @@ textarea {
 }
 
 #box3, #messages li {
-	background: #173e48;
+  background: #4C566A;
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 14px;
@@ -129,7 +129,7 @@ textarea {
 }
 
 #box3 .shortcut {
-	color: #c4dce3;
+  color: #81A1C1;
 	font-weight: normal;
 }
 
@@ -154,6 +154,10 @@ textarea {
 #box2 .function.enabled.twitter:hover { background-position: -153px bottom; }
 #box2 .button-picture{ border-width: 0; font-size: inherit; }
 
+*:focus {
+  outline: none;
+}
+
 #messages {
 	position:fixed;
 	top:0px;
@@ -164,12 +168,12 @@ textarea {
 }
 
 #messages li {
-	background:rgba(23,62,72,0.8);
+  background:rgba(59,66,82,0.8);
 	margin:0 auto;
 	list-style:none;
 }
 
 #messages li.error {
-	background:rgba(102,8,0,0.8);
+	background:rgba(191,97,106,0.8);
 }
 
